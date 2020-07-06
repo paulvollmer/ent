@@ -1,0 +1,11 @@
+project_name: entc
+builds:
+  - binary: entc
+    dir: cmd/entc
+    goos:
+      - darwin
+      - linux
+      - windows
+    goarch:
+      - amd64
+      - 386
